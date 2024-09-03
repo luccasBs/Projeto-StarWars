@@ -1,5 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-*{
-    background-color: rgb(0, 0, 0);
+
+.a{
+    text-align: center;
+    height: auto;
+    background-color: black;
     color: yellow;
+   
+    p{
+        background-color: black;
+    }
+
+    h1{
+        background-color: black;
+        text-align: center;
+    }
+    
+}
+
+*{
+    background-color: rgb(59, 59, 59);
 }
