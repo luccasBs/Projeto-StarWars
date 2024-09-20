@@ -3,20 +3,21 @@
 .a{
     text-align: center;
     height: auto;
-    background-color: black;
     color: yellow;
-   
-    p{
-        background-color: black;
-    }
-
-    h1{
-        background-color: black;
-        text-align: center;
-    }
+    font-size: xx-large;
     
+    button{
+        font-size: medium;
+        color: #eef772;
+        background-color: rgb(29, 31, 23);
+        border-radius: 10px;
+    }
 }
 
-*{
-    background-color: rgb(59, 59, 59);
+
+
+body{
+    background-image: url('/assets/Stars.gif'); /* Caminho para o GIF */
+    background-position: center center; /* Centraliza o GIF */
+    background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
 }
